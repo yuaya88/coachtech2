@@ -4,28 +4,29 @@
   width: 100%;
   align-items: center;
 }
-div {
-  padding: 0 30px;
-}
+
 
 .header-flex {
   display: flex;
   height: 60px;
-  align-items: center;
+  justify-content: flex-end;
 
 }
 .logo {
   width: 120px;
   height: 30px;
+
 }
 .header-flex nav {
-  width: 100%;
-  margin-left: auto;
+
+  text-align: right;
+  display: inline;
+  align-items: right;
+
 }
 .header-flex ul {
   display: flex;
   list-style:none;
-  text-decoration:none;
   color: gray;
 
 }
@@ -34,7 +35,9 @@ div {
   width: 60px;
   height: 15px;
   font-size: 10px;
-  text-align: right;
+}
+a {
+  text-decoration:none;
 }
 .relative {
   position: relative;
@@ -75,15 +78,17 @@ span {
   color: gray;
 }
 .news_1 {
-  text-align: center;
   margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+
 }
 #title {
   color: rgb(197, 59, 117);
   font-size: 10px;
   display: block;
-
 }
+
 dl{
   width: 500px;
   text-align: center;
@@ -91,16 +96,13 @@ dl{
   font-size: 10px;
   border-bottom:1px solid #ccc;
   margin: 10px auto;
-  position: relative;
   border-top: 1px solid #ccc;
 
 
 }
 dt{
-  float: left;
   width: 60px;
-  clear: left;
-  vertical-align: middle;
+  vertical-align: middle; 
 }
 dd{
   border-bottom: 1px solid #ccc;
@@ -113,5 +115,4 @@ dd{
   margin: 0 100px;
   padding: 2px;
   text-decoration: none;
-
 }

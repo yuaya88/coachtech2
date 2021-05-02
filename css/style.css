@@ -9,7 +9,6 @@
 .header-flex {
   display: flex;
   height: 60px;
-  justify-content: flex-end;
 
 }
 .logo {
@@ -17,18 +16,16 @@
   height: 30px;
 
 }
-.header-flex nav {
 
-  text-align: right;
-  display: inline;
-  align-items: right;
-
+.header-nav-list {
+  justify-content: flex-end;
+  
 }
 .header-flex ul {
   display: flex;
   list-style:none;
   color: gray;
-
+  
 }
 .header-flex ul li {
   margin-left: 10px;
@@ -39,8 +36,10 @@
 a {
   text-decoration:none;
 }
+
 .relative {
   position: relative;
+  width: 100%;
 }
 .relative_img {
   margin: 0 0 0 auto;
@@ -78,41 +77,89 @@ span {
   color: gray;
 }
 .news_1 {
-  margin-top: 50px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  text-align: left;
+
+
+}
+.news {
+  color:rgb(197, 59, 117);
+}
+.news_3 {
+  color: gray;
+  margin: 10px 0 20px 0;
+}
+
+.news_list {
+  width: 500px;
+  font-size: 10px;
+  border-top: 1px solid #000;
+  
+}
+.news_item {
+  display: flex;
+  border-bottom: 1px solid #000;
+  color: gray;
+  
+}
+.news_2{
+  background-color: rgb(197,59,117);
+  border-radius: 30px;
+  color: #fff;
+  padding: 2px 5px;
+  width: 100px;
+  margin: 10px 20px;
+  
+}
+
+.about_1 {
+  width: 100%;
+  background-color: #ebebeb;
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  padding: 30px;
+}
+.about {
+  color: rgb(197, 59, 117);
+  font-size: 10px;
+  display: block;
+  text-align: center;
+  margin: 20px 0 10px 0;
+}
+.about_2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.about_item{
+  
+  display: flex;
+}
+.about_text {
+  width: 40%;
+  
+}
+.about_img {
+  width: 40%;
+  display: flex;
+
+}
+.service_1 {
+  width: 60%;
   display: flex;
   flex-direction: column;
 
 }
-#title {
-  color: rgb(197, 59, 117);
+.service {
+  color:rgb(197, 59, 117);
   font-size: 10px;
-  display: block;
-}
-
-dl{
-  width: 500px;
-  text-align: center;
-  color:gray;
-  font-size: 10px;
-  border-bottom:1px solid #ccc;
-  margin: 10px auto;
-  border-top: 1px solid #ccc;
-
+  text-align: left;
 
 }
-dt{
-  width: 60px;
-  vertical-align: middle; 
-}
-dd{
-  border-bottom: 1px solid #ccc;
-  padding: 10px 5px;
-}
-.news {
-  background-color:rgb(197, 59, 117);
-  border-radius: 30px;
-  color: #fff;
-  margin: 0 100px;
-  padding: 2px;
-  text-decoration: none;
-}
+.service_2 {
+  text-align: left;
+} 
+

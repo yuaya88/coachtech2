@@ -112,6 +112,7 @@ span {
   padding: 2px 5px;
   width: 100px;
   margin: 10px 20px;
+
   
 }
 
@@ -120,8 +121,8 @@ span {
   background-color: #ebebeb;
   display: flex;
   flex-direction: column;
-  margin: 50px;
-  padding: 30px;
+  color: gray;
+
 }
 .about {
   color: rgb(197, 59, 117);
@@ -133,18 +134,24 @@ span {
 .about_2 {
   text-align: center;
   margin-bottom: 10px;
+  font-weight: bold;
 }
 .about_item{
   
   display: flex;
+  width: 70%;
+   justify-content: center;
+
 }
 .about_text {
   width: 40%;
+  margin: 0 100px 0 0;
   
 }
 .about_img {
   width: 40%;
   display: flex;
+  margin: 10px 0 50px 100px;
 
 }
 .service_1 {
@@ -162,4 +169,43 @@ span {
 .service_2 {
   text-align: left;
 } 
+.blog_1 {
+  width: 100%;
+  background-color: #ebebeb;
 
+}
+.blog {
+  color:rgb(197,59,117);
+  font-size: 10px;
+  text-align: left;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+
+}
+.content-img {
+  
+  border: 1px solid #e9eaea;
+  border-radius: 20px;
+  
+}
+
+
+.card {
+  width: 20%;
+  border: 1px solid #e9eaea;
+  border-radius: 20px;
+  
+}
+
+.text-box {
+  text-align: center;
+  background-color: white;
+}
+.date {
+  font-size: 10px;
+  margin-top: 5px;
+}

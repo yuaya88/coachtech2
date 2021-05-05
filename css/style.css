@@ -169,6 +169,34 @@ span {
 .service_2 {
   text-align: left;
 } 
+.box_service{
+  width: 30%;
+  display: flex;
+
+}
+
+.box1{
+  color: white;
+  background-color: rgb(197,59,117);
+  width: 50%;
+  height: 100%;
+}
+.service_img{
+  display: block;
+  width: 40%;
+}
+.box2{
+  background-color: rgb(150, 67, 118);
+  color: #e9eaea;
+  width: 50%;
+  height: 25%;
+}
+.box3{
+  background-color: rgb(161, 118, 131);
+  color: #e9eaea;
+  width: 50%;
+  height: 25%;
+}
 .blog_1 {
   width: 100%;
   background-color: #ebebeb;
@@ -187,25 +215,39 @@ span {
 
 }
 .content-img {
-  
+  display: block;
   border: 1px solid #e9eaea;
   border-radius: 20px;
   
 }
-
+.blog_img{
+  display: block;
+}
 
 .card {
   width: 20%;
   border: 1px solid #e9eaea;
   border-radius: 20px;
+  overflow: hidden; 
   
 }
 
 .text-box {
-  text-align: center;
   background-color: white;
+  font-size: 10px;
+  
+}
+.tag {
+  display: flex;
+  font-size: 10px;
+}
+.title{
+  padding: 20px 10px;
+  margin: 0 auto;
+  
 }
 .date {
-  font-size: 10px;
   margin-top: 5px;
+  display: flex;
+  justify-content: space-around;
 }

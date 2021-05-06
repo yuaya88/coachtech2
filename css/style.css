@@ -155,7 +155,7 @@ span {
 
 }
 .service_1 {
-  width: 60%;
+  width: 70%;
   display: flex;
   flex-direction: column;
 
@@ -181,16 +181,21 @@ span {
   background-color: rgb(197,59,117);
   grid-column: 1/2;
   grid-row: 1/3;
+  height: 100%;
+  margin: 0 auto;
 }
 .service_img{
   display: block;
-  width: 40%;
+  width: 30%;
+  margin: 0 auto;
 }
 .box2{
   background-color: rgb(150, 67, 118);
   color: #e9eaea;
   grid-column: 2/3;
   grid-row: 1/2;
+  height: 100%;
+  display: flex;
   
 }
 .box3{
@@ -198,6 +203,11 @@ span {
   color: #e9eaea;
   grid-column: 2/3;
   grid-row: 2/3;
+  height: 100%;
+  display: flex;
+}
+.business{
+  line-height: 24px;
 }
 .blog_1 {
   width: 100%;
@@ -220,7 +230,18 @@ span {
   display: block;
   border: 1px solid #e9eaea;
   border-radius: 20px;
+  position: relative;
   
+}
+.blog_item{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(197,59,117);
+  width: 70px;
+  text-align: center;
+  color: #e9eaea;
+  padding: 7px;
 }
 .blog_img{
   display: block;

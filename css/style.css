@@ -158,21 +158,29 @@ span {
   width: 70%;
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
 
 }
 .service {
   color:rgb(197, 59, 117);
   font-size: 10px;
   text-align: left;
+  margin: 20px;
 
 }
 .service_2 {
   text-align: left;
+  color: gray;
+  font-weight: bold;
+  margin-bottom: 20px;
+
 } 
 .grid_service{
   display: grid;
-  grid-template-rows: 300px 300px;
+  grid-template-rows: 200px 200px;
   grid-template-columns: 1fr 1fr;
+  position: relative;
+  margin-bottom: 50px;
 
 }
 
@@ -183,11 +191,16 @@ span {
   grid-row: 1/3;
   height: 100%;
   margin: 0 auto;
+  text-align: center;
+
 }
 .service_img{
   display: block;
   width: 30%;
   margin: 0 auto;
+  padding: 40px 0 0 10px;
+
+
 }
 .box2{
   background-color: rgb(150, 67, 118);
@@ -196,7 +209,6 @@ span {
   grid-row: 1/2;
   height: 100%;
   display: flex;
-  
 }
 .box3{
   background-color: rgb(161, 118, 131);
@@ -208,16 +220,27 @@ span {
 }
 .business{
   line-height: 24px;
+  
+
 }
 .blog_1 {
   width: 100%;
   background-color: #ebebeb;
+  margin-bottom: 50px;
+  text-align: left;
+  padding-bottom: 50px;
 
 }
 .blog {
   color:rgb(197,59,117);
   font-size: 10px;
-  text-align: left;
+  display: inline-block;
+  margin: 30px 0 0 170px;
+}
+.blog_2{
+  color: gray;
+  font-weight: bold;
+  margin: 10px 0 0 170px;
 }
 .wrapper {
   display: flex;
@@ -251,7 +274,8 @@ span {
   width: 20%;
   border: 1px solid #e9eaea;
   border-radius: 20px;
-  overflow: hidden; 
+  overflow: hidden;
+  margin: 30px;
   
 }
 
@@ -273,4 +297,71 @@ span {
   margin-top: 5px;
   display: flex;
   justify-content: space-around;
+}
+.blog_btn{
+  width: 150px;
+  height: 30px;
+  color:rgb(197, 59, 117);
+  border-radius: 30px;
+  border:1px solid rgb(197,59,117);
+  background-color: white;
+  text-align: center;
+  padding-top: 10px;
+  margin: 0 auto;
+
+}
+.company_table{
+  width: 60%;
+  margin: 0 auto;
+}
+.company{
+  color: rgb(197,59,117);
+  font-size: 10px;
+}
+.company_text{
+  color: gray;
+  font-weight: bold;
+  margin: 10px 0 30px 0;
+}
+
+.text_1{
+  border: 1px solid #ccc;
+  padding: 20px;
+  font-weight: bold;
+  background-color: #e9e5e5da;
+  color: gray;
+  width: 25%;
+  text-align: left;
+}
+.text_2{
+  border: 1px solid #ccc;
+  padding: 20px;
+  color: gray;
+
+}
+.company_1{
+  margin-bottom: 50px;
+}
+.img_company{
+  width: 100%;
+  height: 250px;
+  display: flex;
+}
+.img_company1{
+  position: relative;
+}
+.recruit{
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  top: 125px;
+}
+.img_company2{
+  position: relative;
+}
+.interview{
+  position: absolute;
+  width: 250px;
+  height: 30px;
+  top: 125px;
 }
